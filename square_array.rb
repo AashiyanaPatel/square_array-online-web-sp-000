@@ -1,10 +1,10 @@
 def square_array(array)
-  arr = []
-  array.each { |i| arr << i ** 2}
-  arr
+  new_array = []
+  array.each do |integer|
+  new_array << integer ** 2
 end
-my_arr = [1,2,3]
-p square_array(my_arr) #=> [1,4,9]
+return new_array
+ 
 
 def square_array(numbers)
   new_numbers = []
