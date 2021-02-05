@@ -4,7 +4,7 @@ def square_array(array)
   arr
 end
 my_arr = [1,2,3]
-p square_array(my_arr) #=> [1,4]
+p square_array(my_arr) #=> [1,4,9]
 
 def square_array(numbers)
   new_numbers = []
