@@ -3,7 +3,7 @@ def square_array(array)
   array.each { |i| arr << i ** 2}
   arr
 end
-my_arr = [1,2]
+my_arr = [1,2,3]
 p square_array(my_arr) #=> [1,4]
 
 def square_array(numbers)
